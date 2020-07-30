@@ -1,7 +1,7 @@
 # Add  code here!
-def prime?(number)
-  return false if number <= 1
-  [0..(number-1)].each do
-    |i| return false if number % i == 0
+def prime?(num)
+  [0..(num-1)].each do
+    |n| return false if num % n == 0
   end
+  true
 end
